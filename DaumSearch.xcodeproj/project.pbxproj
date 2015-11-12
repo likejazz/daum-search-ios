@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2619C61BF0A8150094A208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2619C51BF0A8150094A208 /* main.m */; };
+		3E2619C91BF0A8150094A208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2619C81BF0A8150094A208 /* AppDelegate.m */; };
+		3E2619CC1BF0A8150094A208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2619CB1BF0A8150094A208 /* ViewController.m */; };
+		3E2619CF1BF0A8150094A208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2619CD1BF0A8150094A208 /* Main.storyboard */; };
+		3E2619D11BF0A8150094A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2619D01BF0A8150094A208 /* Assets.xcassets */; };
+		3E2619D41BF0A8150094A208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2619D21BF0A8150094A208 /* LaunchScreen.storyboard */; };
+		41C4B8BB3F420CBEF9F03ABA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 41C4B377080FB8A2EB4F35C6 /* .gitignore */; };
+		41C4BE6C69ACD92CC7551A36 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 41C4B3DD29E0663DAC22C3C3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E2619C11BF0A8150094A208 /* Daum Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daum Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2619C51BF0A8150094A208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E2619C71BF0A8150094A208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E2619C81BF0A8150094A208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2619CA1BF0A8150094A208 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E2619CB1BF0A8150094A208 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E2619CE1BF0A8150094A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2619D01BF0A8150094A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E2619D31BF0A8150094A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E2619D51BF0A8150094A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C4B377080FB8A2EB4F35C6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		41C4B3DD29E0663DAC22C3C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2619BE1BF0A8150094A208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2619B81BF0A8150094A208 = {
+			isa = PBXGroup;
+			children = (
+				3E2619C31BF0A8150094A208 /* DaumSearch */,
+				3E2619C21BF0A8150094A208 /* Products */,
+				41C4B377080FB8A2EB4F35C6 /* .gitignore */,
+				41C4B3DD29E0663DAC22C3C3 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2619C21BF0A8150094A208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2619C11BF0A8150094A208 /* Daum Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2619C31BF0A8150094A208 /* DaumSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3E2619C71BF0A8150094A208 /* AppDelegate.h */,
+				3E2619C81BF0A8150094A208 /* AppDelegate.m */,
+				3E2619CA1BF0A8150094A208 /* ViewController.h */,
+				3E2619CB1BF0A8150094A208 /* ViewController.m */,
+				3E2619CD1BF0A8150094A208 /* Main.storyboard */,
+				3E2619D01BF0A8150094A208 /* Assets.xcassets */,
+				3E2619D21BF0A8150094A208 /* LaunchScreen.storyboard */,
+				3E2619D51BF0A8150094A208 /* Info.plist */,
+				3E2619C41BF0A8150094A208 /* Supporting Files */,
+			);
+			path = DaumSearch;
+			sourceTree = "<group>";
+		};
+		3E2619C41BF0A8150094A208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2619C51BF0A8150094A208 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2619C01BF0A8150094A208 /* DaumSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2619D81BF0A8150094A208 /* Build configuration list for PBXNativeTarget "DaumSearch" */;
+			buildPhases = (
+				3E2619BD1BF0A8150094A208 /* Sources */,
+				3E2619BE1BF0A8150094A208 /* Frameworks */,
+				3E2619BF1BF0A8150094A208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaumSearch;
+			productName = DaumSearch;
+			productReference = 3E2619C11BF0A8150094A208 /* Daum Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2619B91BF0A8150094A208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kakao Inc.";
+				TargetAttributes = {
+					3E2619C01BF0A8150094A208 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E2619BC1BF0A8150094A208 /* Build configuration list for PBXProject "DaumSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2619B81BF0A8150094A208;
+			productRefGroup = 3E2619C21BF0A8150094A208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2619C01BF0A8150094A208 /* DaumSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2619BF1BF0A8150094A208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2619D41BF0A8150094A208 /* LaunchScreen.storyboard in Resources */,
+				3E2619D11BF0A8150094A208 /* Assets.xcassets in Resources */,
+				3E2619CF1BF0A8150094A208 /* Main.storyboard in Resources */,
+				41C4B8BB3F420CBEF9F03ABA /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2619BD1BF0A8150094A208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2619CC1BF0A8150094A208 /* ViewController.m in Sources */,
+				3E2619C91BF0A8150094A208 /* AppDelegate.m in Sources */,
+				3E2619C61BF0A8150094A208 /* main.m in Sources */,
+				41C4BE6C69ACD92CC7551A36 /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E2619CD1BF0A8150094A208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2619CE1BF0A8150094A208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2619D21BF0A8150094A208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2619D31BF0A8150094A208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2619D61BF0A8150094A208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2619D71BF0A8150094A208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2619D91BF0A8150094A208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DaumSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.inhouse.daumsearch;
+				PRODUCT_NAME = "Daum Search";
+				PROVISIONING_PROFILE = "d3ee3495-c37f-4a3a-b6f1-51acc8f8aca1";
+			};
+			name = Debug;
+		};
+		3E2619DA1BF0A8150094A208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DaumSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.inhouse.daumsearch;
+				PRODUCT_NAME = "Daum Search";
+				PROVISIONING_PROFILE = "d3ee3495-c37f-4a3a-b6f1-51acc8f8aca1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2619BC1BF0A8150094A208 /* Build configuration list for PBXProject "DaumSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2619D61BF0A8150094A208 /* Debug */,
+				3E2619D71BF0A8150094A208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2619D81BF0A8150094A208 /* Build configuration list for PBXNativeTarget "DaumSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2619D91BF0A8150094A208 /* Debug */,
+				3E2619DA1BF0A8150094A208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2619B91BF0A8150094A208 /* Project object */;
+}
