@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018CFE0194BD7046BDD08B8E133E73AF /* safari-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2860CB75742603FE2D0125D492C9CC /* safari-7@2x.png */; };
+		03F78F088E9067DE49A1491BE957581D /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F341191B99B5B8993D50590CAD06C47A /* TUSafariActivity.m */; };
+		1D783295A5E4CFF86876908BA77BD439 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9A2098B60A37A7CB137997B53E2B0708 /* pt.lproj */; };
+		22397D785BF04EAB87DE8416C1067334 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 81369C3566C5C1F9DE61C52504D7E962 /* safari.png */; };
+		3C77526345FD06C256711B3A01DF86E1 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2D261118A9232D2972E2E7123AB7E8D /* sv.lproj */; };
+		3C997849C5F1F304572FC26ADBE9E55F /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F3673F2AC9D6C456116F9D8105D85EA3 /* zh_CN.lproj */; };
+		47CCCF4D8540869DCBCE42ABEBF466DA /* ARChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7C6344C9CE5195975547833170897E /* ARChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDE01072F06E2D612951E7AF96033AB /* ARChromeActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DF7C1B1B05FC957D4DD0F8F7CC7E2F /* ARChromeActivity-dummy.m */; };
+		5133B6232269B6E04C474F58EA68A595 /* TUSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B2A72C939F71F86DAFC73FE62E892B /* TUSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52647BA61148D101E3B0752C2E971F1A /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A0951CE4566F0ECD162D7AF5DBCC4C1 /* nl.lproj */; };
+		56AD63E9008576BFDB87CD057397E39E /* safari-7~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = AD249685DA5D6A3DFDD8FB99C2BDEDCE /* safari-7~iPad.png */; };
+		5904AC8D3B0685AEFE3A29FFA91439E3 /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 970730672A96AB57804B0D7A9DF9FA14 /* safari~iPad@2x.png */; };
+		59E0B9C7AB274242E90E79529800E0AE /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137DA9AC4C60305E427C0027DBCF1269 /* safari~iPad.png */; };
+		5E031A2A7ED4C9555A36355BAFC26041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6253CDD55DBD0888D4FB552DAF0AEB35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		637B130631A00658A1A02652DEE24D65 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		6EE00508588B31F828FA12A9980B7F04 /* eu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 53858C32760F46D9F644552F2EEDAA04 /* eu.lproj */; };
+		70A5BEB82A900B9E26DA8AEF3EEDF650 /* TUSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FBE10237CDAE96A39CE66F43EE414A /* TUSafariActivity-dummy.m */; };
+		72A478FB225094B22A04C02900B7AA33 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 26E5CBFDA93EF7F65B261726B8A846B5 /* fi.lproj */; };
+		73D039AF9A99160DB0D9A6FAA6A3E4DC /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA6C7B5CA2B0EFB1F7EC19073E6F1B /* ru.lproj */; };
+		74799C1ED723A03136B598AD1AF4759E /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4450C5C0141D1970F927AB1D9FA758D6 /* ja.lproj */; };
+		7D8300A1CC1F388F74FC808BAF85B0E9 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 490A6A4C1041AAC17BCFA7878434F81A /* ko.lproj */; };
+		8594626DAA2060C4D0C7BF40B4FF53C6 /* safari-7.png in Resources */ = {isa = PBXBuildFile; fileRef = DA14327C5C518733674FF1BE3BE2CDB0 /* safari-7.png */; };
+		87258984AF74D988AA6FD8425F2C0DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8F26318EA6559F80FC328A67C3E5EC12 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CDF7F535D9681385B15771EFF22DE /* ARChromeActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C5E90B30D0DD5EE47FA2B455F1DD618 /* safari-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6A13B9B6F959EF94BFEF36D8DEAA /* safari-7@3x.png */; };
+		AB8D86AFDB4B6FF50617478799F90768 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 35D474EB580452F7C0528DBDFC0EB3FA /* en.lproj */; };
+		B1990C9B4B426A69095C1F3A4E7D3732 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3E1083FCA09319CDBCC7EBD2D57C22B6 /* sk.lproj */; };
+		B4CA85CEECFBEC59F36AD8D325EBF15C /* safari-7~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882C4D2B1853DBC1A47E4D523E16E99C /* safari-7~iPad@2x.png */; };
+		BEA42B2BDCA5FCACB1CD3C5922FBF959 /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88A88EF1120C0304BC8F5704D146B1F /* safari@2x.png */; };
+		C8654B3B114CAABB5FB62BBD6863B25A /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2D2C25191AD5413B98E477EE5B0BBD6C /* pl.lproj */; };
+		CD1786A9E858B75EA1296AEFD26A1038 /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2772024E114BE3A5A2C7100C288E2B37 /* no.lproj */; };
+		D0674418A3D3C19F4F686B13CDD1DE99 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8C2FEEEBF7CEF70AC104E8E644EF92DF /* de.lproj */; };
+		D2C668A6658CF526D846877ED77CF277 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 477812C671D2A101C7F10BB13B8574F7 /* vi.lproj */; };
+		D6BC422FEC9FED4B1696513623359497 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3687E2D4C0823BB901128FD24F9EB232 /* it.lproj */; };
+		DE75869F4A5A1829BBCB3F47484BBB0F /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D3FCA639B2DA75D077C97AEBBFFEBE7 /* cs.lproj */; };
+		F384FA03F6F2C0947717B6D24FE4FC77 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F8A2419394B52C2426098A1D917A4 /* fr.lproj */; };
+		F6C48B9F68752247907E66331DFADFF7 /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB55A34D8D0AABFE4191F446E828905 /* safari@3x.png */; };
+		FF95DF38086A6862E17BF68DA6A9092C /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2E85DA91362A256D8D2A44E2DB58313E /* es.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3189DF4B34A0EDF85A3C69A675F3EBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9FA267E841F21E9798C21C20D43E8C1;
+			remoteInfo = TUSafariActivity;
+		};
+		45B0E4084F167E29ED92D7A68E8EFE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18B438EACC26F2ABC957E967416806F;
+			remoteInfo = "TUSafariActivity-TUSafariActivity";
+		};
+		65E2021D117A69ADFB51DEE4D0C1AFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AF14DD2431C8DA79F45F4F1D22075E;
+			remoteInfo = ARChromeActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C89468A27E94D37E8B38E4FADE8DE4C /* ARChromeActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@2x.png"; path = "ARChromeActivity/ARChromeActivity@2x.png"; sourceTree = "<group>"; };
+		0D3FCA639B2DA75D077C97AEBBFFEBE7 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Pod/Assets/cs.lproj; sourceTree = "<group>"; };
+		0D6F8A2419394B52C2426098A1D917A4 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Pod/Assets/fr.lproj; sourceTree = "<group>"; };
+		10437EE75A0C3C77386366862E22682E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		137DA9AC4C60305E427C0027DBCF1269 /* safari~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad.png"; path = "Pod/Assets/safari~iPad.png"; sourceTree = "<group>"; };
+		26E5CBFDA93EF7F65B261726B8A846B5 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Pod/Assets/fi.lproj; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2772024E114BE3A5A2C7100C288E2B37 /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = no.lproj; path = Pod/Assets/no.lproj; sourceTree = "<group>"; };
+		2D2C25191AD5413B98E477EE5B0BBD6C /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Pod/Assets/pl.lproj; sourceTree = "<group>"; };
+		2E85DA91362A256D8D2A44E2DB58313E /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Pod/Assets/es.lproj; sourceTree = "<group>"; };
+		35D474EB580452F7C0528DBDFC0EB3FA /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Assets/en.lproj; sourceTree = "<group>"; };
+		35D4E87EF3A5A996B7E5B05F12E991A5 /* TUSafariActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUSafariActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3687E2D4C0823BB901128FD24F9EB232 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Pod/Assets/it.lproj; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E1083FCA09319CDBCC7EBD2D57C22B6 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Pod/Assets/sk.lproj; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43DF7C1B1B05FC957D4DD0F8F7CC7E2F /* ARChromeActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARChromeActivity-dummy.m"; sourceTree = "<group>"; };
+		4450C5C0141D1970F927AB1D9FA758D6 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Pod/Assets/ja.lproj; sourceTree = "<group>"; };
+		477812C671D2A101C7F10BB13B8574F7 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Pod/Assets/vi.lproj; sourceTree = "<group>"; };
+		490A6A4C1041AAC17BCFA7878434F81A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Pod/Assets/ko.lproj; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F7C6344C9CE5195975547833170897E /* ARChromeActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARChromeActivity.h; path = ARChromeActivity/ARChromeActivity.h; sourceTree = "<group>"; };
+		516EC720E678340FDFF96385B6DA7A21 /* ARChromeActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARChromeActivity-prefix.pch"; sourceTree = "<group>"; };
+		53858C32760F46D9F644552F2EEDAA04 /* eu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = eu.lproj; path = Pod/Assets/eu.lproj; sourceTree = "<group>"; };
+		554BAF753A4D38209DF3CCE08B56BF29 /* libTUSafariActivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTUSafariActivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59613C917DF103995AA346A12776C481 /* ARChromeActivity@3x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@3x~ipad.png"; path = "ARChromeActivity/ARChromeActivity@3x~ipad.png"; sourceTree = "<group>"; };
+		5E660F050C482CC33D69978D1753F067 /* libARChromeActivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARChromeActivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6A0951CE4566F0ECD162D7AF5DBCC4C1 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Pod/Assets/nl.lproj; sourceTree = "<group>"; };
+		6CAA6C7B5CA2B0EFB1F7EC19073E6F1B /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Pod/Assets/ru.lproj; sourceTree = "<group>"; };
+		7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSafariActivity.xcconfig; sourceTree = "<group>"; };
+		790CDF7F535D9681385B15771EFF22DE /* ARChromeActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARChromeActivity.m; path = ARChromeActivity/ARChromeActivity.m; sourceTree = "<group>"; };
+		81369C3566C5C1F9DE61C52504D7E962 /* safari.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = safari.png; path = Pod/Assets/safari.png; sourceTree = "<group>"; };
+		8248522FD3163D9EE04B38362C3477E7 /* TUSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-prefix.pch"; sourceTree = "<group>"; };
+		882C4D2B1853DBC1A47E4D523E16E99C /* safari-7~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad@2x.png"; path = "Pod/Assets/safari-7~iPad@2x.png"; sourceTree = "<group>"; };
+		89AE6A13B9B6F959EF94BFEF36D8DEAA /* safari-7@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@3x.png"; path = "Pod/Assets/safari-7@3x.png"; sourceTree = "<group>"; };
+		8C2FEEEBF7CEF70AC104E8E644EF92DF /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Pod/Assets/de.lproj; sourceTree = "<group>"; };
+		970730672A96AB57804B0D7A9DF9FA14 /* safari~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad@2x.png"; path = "Pod/Assets/safari~iPad@2x.png"; sourceTree = "<group>"; };
+		97B2A72C939F71F86DAFC73FE62E892B /* TUSafariActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSafariActivity.h; path = Pod/Classes/TUSafariActivity.h; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9A2098B60A37A7CB137997B53E2B0708 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Pod/Assets/pt.lproj; sourceTree = "<group>"; };
+		9CE498F0CB98BE753FD01E14FA0361C9 /* ARChromeActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ARChromeActivity.png; path = ARChromeActivity/ARChromeActivity.png; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		AAA5A4534AC5350C0C71D1CD04824118 /* ARChromeActivity~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity~ipad.png"; path = "ARChromeActivity/ARChromeActivity~ipad.png"; sourceTree = "<group>"; };
+		AD249685DA5D6A3DFDD8FB99C2BDEDCE /* safari-7~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad.png"; path = "Pod/Assets/safari-7~iPad.png"; sourceTree = "<group>"; };
+		AF5BDBE9F7F5E59C9C937CE29A967012 /* ARChromeActivity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@3x.png"; path = "ARChromeActivity/ARChromeActivity@3x.png"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBB55A34D8D0AABFE4191F446E828905 /* safari@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@3x.png"; path = "Pod/Assets/safari@3x.png"; sourceTree = "<group>"; };
+		C2D261118A9232D2972E2E7123AB7E8D /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Pod/Assets/sv.lproj; sourceTree = "<group>"; };
+		C66520FF19707BB28DFCA9FCECEABEFD /* ARChromeActivity@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@2x~ipad.png"; path = "ARChromeActivity/ARChromeActivity@2x~ipad.png"; sourceTree = "<group>"; };
+		DA14327C5C518733674FF1BE3BE2CDB0 /* safari-7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7.png"; path = "Pod/Assets/safari-7.png"; sourceTree = "<group>"; };
+		E2FBE10237CDAE96A39CE66F43EE414A /* TUSafariActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUSafariActivity-dummy.m"; sourceTree = "<group>"; };
+		F341191B99B5B8993D50590CAD06C47A /* TUSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSafariActivity.m; path = Pod/Classes/TUSafariActivity.m; sourceTree = "<group>"; };
+		F3673F2AC9D6C456116F9D8105D85EA3 /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = zh_CN.lproj; path = Pod/Assets/zh_CN.lproj; sourceTree = "<group>"; };
+		F88A88EF1120C0304BC8F5704D146B1F /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@2x.png"; path = "Pod/Assets/safari@2x.png"; sourceTree = "<group>"; };
+		F9362FB5958784C27E820403757BB852 /* ARChromeActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARChromeActivity.xcconfig; sourceTree = "<group>"; };
+		FB2860CB75742603FE2D0125D492C9CC /* safari-7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@2x.png"; path = "Pod/Assets/safari-7@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D9B5BC4241031A843C467437295756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87258984AF74D988AA6FD8425F2C0DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48625C5396F569E5126020D98049AE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6253CDD55DBD0888D4FB552DAF0AEB35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4948079CB75F231FB398D8817C1C5E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E031A2A7ED4C9555A36355BAFC26041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A5BF801A4C4B1558AADA099EB977D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EF59B94B2C702BCE80D74CF748400B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */,
+				E2FBE10237CDAE96A39CE66F43EE414A /* TUSafariActivity-dummy.m */,
+				8248522FD3163D9EE04B38362C3477E7 /* TUSafariActivity-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TUSafariActivity";
+			sourceTree = "<group>";
+		};
+		14345BC5F8C56C9215B79C041F668FAA /* TUSafariActivity */ = {
+			isa = PBXGroup;
+			children = (
+				97B2A72C939F71F86DAFC73FE62E892B /* TUSafariActivity.h */,
+				F341191B99B5B8993D50590CAD06C47A /* TUSafariActivity.m */,
+				96979AE5193AD140F335DA6E9A98237E /* Resources */,
+				0EF59B94B2C702BCE80D74CF748400B9 /* Support Files */,
+			);
+			path = TUSafariActivity;
+			sourceTree = "<group>";
+		};
+		5207D62EA02781F901646ADAB5ADD0EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9362FB5958784C27E820403757BB852 /* ARChromeActivity.xcconfig */,
+				43DF7C1B1B05FC957D4DD0F8F7CC7E2F /* ARChromeActivity-dummy.m */,
+				516EC720E678340FDFF96385B6DA7A21 /* ARChromeActivity-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARChromeActivity";
+			sourceTree = "<group>";
+		};
+		675A240C03D21C477308A9CFBAD9FB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E660F050C482CC33D69978D1753F067 /* libARChromeActivity.a */,
+				10437EE75A0C3C77386366862E22682E /* libPods.a */,
+				554BAF753A4D38209DF3CCE08B56BF29 /* libTUSafariActivity.a */,
+				35D4E87EF3A5A996B7E5B05F12E991A5 /* TUSafariActivity.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BC5003D174C8E0D3D498CFB4A3BC658F /* Pods */,
+				675A240C03D21C477308A9CFBAD9FB8F /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96979AE5193AD140F335DA6E9A98237E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D3FCA639B2DA75D077C97AEBBFFEBE7 /* cs.lproj */,
+				8C2FEEEBF7CEF70AC104E8E644EF92DF /* de.lproj */,
+				35D474EB580452F7C0528DBDFC0EB3FA /* en.lproj */,
+				2E85DA91362A256D8D2A44E2DB58313E /* es.lproj */,
+				53858C32760F46D9F644552F2EEDAA04 /* eu.lproj */,
+				26E5CBFDA93EF7F65B261726B8A846B5 /* fi.lproj */,
+				0D6F8A2419394B52C2426098A1D917A4 /* fr.lproj */,
+				3687E2D4C0823BB901128FD24F9EB232 /* it.lproj */,
+				4450C5C0141D1970F927AB1D9FA758D6 /* ja.lproj */,
+				490A6A4C1041AAC17BCFA7878434F81A /* ko.lproj */,
+				6A0951CE4566F0ECD162D7AF5DBCC4C1 /* nl.lproj */,
+				2772024E114BE3A5A2C7100C288E2B37 /* no.lproj */,
+				2D2C25191AD5413B98E477EE5B0BBD6C /* pl.lproj */,
+				9A2098B60A37A7CB137997B53E2B0708 /* pt.lproj */,
+				6CAA6C7B5CA2B0EFB1F7EC19073E6F1B /* ru.lproj */,
+				81369C3566C5C1F9DE61C52504D7E962 /* safari.png */,
+				DA14327C5C518733674FF1BE3BE2CDB0 /* safari-7.png */,
+				FB2860CB75742603FE2D0125D492C9CC /* safari-7@2x.png */,
+				89AE6A13B9B6F959EF94BFEF36D8DEAA /* safari-7@3x.png */,
+				AD249685DA5D6A3DFDD8FB99C2BDEDCE /* safari-7~iPad.png */,
+				882C4D2B1853DBC1A47E4D523E16E99C /* safari-7~iPad@2x.png */,
+				F88A88EF1120C0304BC8F5704D146B1F /* safari@2x.png */,
+				BBB55A34D8D0AABFE4191F446E828905 /* safari@3x.png */,
+				137DA9AC4C60305E427C0027DBCF1269 /* safari~iPad.png */,
+				970730672A96AB57804B0D7A9DF9FA14 /* safari~iPad@2x.png */,
+				3E1083FCA09319CDBCC7EBD2D57C22B6 /* sk.lproj */,
+				C2D261118A9232D2972E2E7123AB7E8D /* sv.lproj */,
+				477812C671D2A101C7F10BB13B8574F7 /* vi.lproj */,
+				F3673F2AC9D6C456116F9D8105D85EA3 /* zh_CN.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99FFF282B25ED33C61D81D34BD7D4282 /* ARChromeActivity */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C6344C9CE5195975547833170897E /* ARChromeActivity.h */,
+				790CDF7F535D9681385B15771EFF22DE /* ARChromeActivity.m */,
+				BE3BC82A48C17CEB53280FCF58972376 /* Resources */,
+				5207D62EA02781F901646ADAB5ADD0EB /* Support Files */,
+			);
+			path = ARChromeActivity;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5003D174C8E0D3D498CFB4A3BC658F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99FFF282B25ED33C61D81D34BD7D4282 /* ARChromeActivity */,
+				14345BC5F8C56C9215B79C041F668FAA /* TUSafariActivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE3BC82A48C17CEB53280FCF58972376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CE498F0CB98BE753FD01E14FA0361C9 /* ARChromeActivity.png */,
+				0C89468A27E94D37E8B38E4FADE8DE4C /* ARChromeActivity@2x.png */,
+				C66520FF19707BB28DFCA9FCECEABEFD /* ARChromeActivity@2x~ipad.png */,
+				AF5BDBE9F7F5E59C9C937CE29A967012 /* ARChromeActivity@3x.png */,
+				59613C917DF103995AA346A12776C481 /* ARChromeActivity@3x~ipad.png */,
+				AAA5A4534AC5350C0C71D1CD04824118 /* ARChromeActivity~ipad.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BFDD17913DA3A440C1322B0425D9DF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133B6232269B6E04C474F58EA68A595 /* TUSafariActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66081CA7DB2D6A25F1852962A777B46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CCCF4D8540869DCBCE42ABEBF466DA /* ARChromeActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64531F98B60665900AF842F76EBC1A9B /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA5BC2AD144E7179A8A0B0A3A3FA0B4 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				EE4F4F4681D7B46B30AE0327DEF80343 /* Sources */,
+				12D9B5BC4241031A843C467437295756 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D61EC12500005EDB740AF5C799E4A4 /* PBXTargetDependency */,
+				BED4D5C80BF0ABFAB7C4C468FBB21D27 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 10437EE75A0C3C77386366862E22682E /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9FA267E841F21E9798C21C20D43E8C1 /* TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB96786FA14082972338FF5C86196E0 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */;
+			buildPhases = (
+				714E337230C2A71A607C5DDE5E762C7F /* Sources */,
+				4948079CB75F231FB398D8817C1C5E0E /* Frameworks */,
+				0BFDD17913DA3A440C1322B0425D9DF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33E4858EAB240B0E60DA9D0B50319A8 /* PBXTargetDependency */,
+			);
+			name = TUSafariActivity;
+			productName = TUSafariActivity;
+			productReference = 554BAF753A4D38209DF3CCE08B56BF29 /* libTUSafariActivity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E18B438EACC26F2ABC957E967416806F /* TUSafariActivity-TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B54F8BB08EC5750D5B381F0C9A74A6 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */;
+			buildPhases = (
+				5513A7514FFA5E1980F15CBDFDE528F8 /* Sources */,
+				58A5BF801A4C4B1558AADA099EB977D3 /* Frameworks */,
+				46EB80BF06D22A5F56C3C4AE146C9114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUSafariActivity-TUSafariActivity";
+			productName = "TUSafariActivity-TUSafariActivity";
+			productReference = 35D4E87EF3A5A996B7E5B05F12E991A5 /* TUSafariActivity.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F7AF14DD2431C8DA79F45F4F1D22075E /* ARChromeActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0769708EDA53D8336E6B8B69595B889F /* Build configuration list for PBXNativeTarget "ARChromeActivity" */;
+			buildPhases = (
+				DDBD0FD31AF907D58FD2B517C7F65C59 /* Sources */,
+				48625C5396F569E5126020D98049AE7D /* Frameworks */,
+				B66081CA7DB2D6A25F1852962A777B46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARChromeActivity;
+			productName = ARChromeActivity;
+			productReference = 5E660F050C482CC33D69978D1753F067 /* libARChromeActivity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 675A240C03D21C477308A9CFBAD9FB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AF14DD2431C8DA79F45F4F1D22075E /* ARChromeActivity */,
+				64531F98B60665900AF842F76EBC1A9B /* Pods */,
+				C9FA267E841F21E9798C21C20D43E8C1 /* TUSafariActivity */,
+				E18B438EACC26F2ABC957E967416806F /* TUSafariActivity-TUSafariActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EB80BF06D22A5F56C3C4AE146C9114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75869F4A5A1829BBCB3F47484BBB0F /* cs.lproj in Resources */,
+				D0674418A3D3C19F4F686B13CDD1DE99 /* de.lproj in Resources */,
+				AB8D86AFDB4B6FF50617478799F90768 /* en.lproj in Resources */,
+				FF95DF38086A6862E17BF68DA6A9092C /* es.lproj in Resources */,
+				6EE00508588B31F828FA12A9980B7F04 /* eu.lproj in Resources */,
+				72A478FB225094B22A04C02900B7AA33 /* fi.lproj in Resources */,
+				F384FA03F6F2C0947717B6D24FE4FC77 /* fr.lproj in Resources */,
+				D6BC422FEC9FED4B1696513623359497 /* it.lproj in Resources */,
+				74799C1ED723A03136B598AD1AF4759E /* ja.lproj in Resources */,
+				7D8300A1CC1F388F74FC808BAF85B0E9 /* ko.lproj in Resources */,
+				52647BA61148D101E3B0752C2E971F1A /* nl.lproj in Resources */,
+				CD1786A9E858B75EA1296AEFD26A1038 /* no.lproj in Resources */,
+				C8654B3B114CAABB5FB62BBD6863B25A /* pl.lproj in Resources */,
+				1D783295A5E4CFF86876908BA77BD439 /* pt.lproj in Resources */,
+				73D039AF9A99160DB0D9A6FAA6A3E4DC /* ru.lproj in Resources */,
+				8594626DAA2060C4D0C7BF40B4FF53C6 /* safari-7.png in Resources */,
+				018CFE0194BD7046BDD08B8E133E73AF /* safari-7@2x.png in Resources */,
+				9C5E90B30D0DD5EE47FA2B455F1DD618 /* safari-7@3x.png in Resources */,
+				56AD63E9008576BFDB87CD057397E39E /* safari-7~iPad.png in Resources */,
+				B4CA85CEECFBEC59F36AD8D325EBF15C /* safari-7~iPad@2x.png in Resources */,
+				22397D785BF04EAB87DE8416C1067334 /* safari.png in Resources */,
+				BEA42B2BDCA5FCACB1CD3C5922FBF959 /* safari@2x.png in Resources */,
+				F6C48B9F68752247907E66331DFADFF7 /* safari@3x.png in Resources */,
+				59E0B9C7AB274242E90E79529800E0AE /* safari~iPad.png in Resources */,
+				5904AC8D3B0685AEFE3A29FFA91439E3 /* safari~iPad@2x.png in Resources */,
+				B1990C9B4B426A69095C1F3A4E7D3732 /* sk.lproj in Resources */,
+				3C77526345FD06C256711B3A01DF86E1 /* sv.lproj in Resources */,
+				D2C668A6658CF526D846877ED77CF277 /* vi.lproj in Resources */,
+				3C997849C5F1F304572FC26ADBE9E55F /* zh_CN.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5513A7514FFA5E1980F15CBDFDE528F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714E337230C2A71A607C5DDE5E762C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A5BEB82A900B9E26DA8AEF3EEDF650 /* TUSafariActivity-dummy.m in Sources */,
+				03F78F088E9067DE49A1491BE957581D /* TUSafariActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBD0FD31AF907D58FD2B517C7F65C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDE01072F06E2D612951E7AF96033AB /* ARChromeActivity-dummy.m in Sources */,
+				8F26318EA6559F80FC328A67C3E5EC12 /* ARChromeActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4F4F4681D7B46B30AE0327DEF80343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637B130631A00658A1A02652DEE24D65 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D61EC12500005EDB740AF5C799E4A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARChromeActivity;
+			target = F7AF14DD2431C8DA79F45F4F1D22075E /* ARChromeActivity */;
+			targetProxy = 65E2021D117A69ADFB51DEE4D0C1AFDE /* PBXContainerItemProxy */;
+		};
+		BED4D5C80BF0ABFAB7C4C468FBB21D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TUSafariActivity;
+			target = C9FA267E841F21E9798C21C20D43E8C1 /* TUSafariActivity */;
+			targetProxy = 3189DF4B34A0EDF85A3C69A675F3EBB5 /* PBXContainerItemProxy */;
+		};
+		E33E4858EAB240B0E60DA9D0B50319A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TUSafariActivity-TUSafariActivity";
+			target = E18B438EACC26F2ABC957E967416806F /* TUSafariActivity-TUSafariActivity */;
+			targetProxy = 45B0E4084F167E29ED92D7A68E8EFE43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19F79EFD6A19DA20BAF6871C8E1858C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2F2228B7F57C176F1DB7C765C8534B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4FF5B35B8E3B1CACB773931E63BA5BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5BD75FE8330AAF6F78B54AEBE7319C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8F8C790C16D1C1BE32B71C6AAEFC7246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9362FB5958784C27E820403757BB852 /* ARChromeActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ARChromeActivity/ARChromeActivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C95955823834364A139CB5682E1D16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9362FB5958784C27E820403757BB852 /* ARChromeActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ARChromeActivity/ARChromeActivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AFB07E347EB07DB58BF04603C757F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFEB4F1E4A1D0EF2F517DB85BAD81BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903BF6AFBBB161F1020DEE35946E704 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0769708EDA53D8336E6B8B69595B889F /* Build configuration list for PBXNativeTarget "ARChromeActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C95955823834364A139CB5682E1D16B /* Debug */,
+				8F8C790C16D1C1BE32B71C6AAEFC7246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB96786FA14082972338FF5C86196E0 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEB4F1E4A1D0EF2F517DB85BAD81BEB /* Debug */,
+				19F79EFD6A19DA20BAF6871C8E1858C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B54F8BB08EC5750D5B381F0C9A74A6 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD75FE8330AAF6F78B54AEBE7319C11 /* Debug */,
+				2F2228B7F57C176F1DB7C765C8534B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA5BC2AD144E7179A8A0B0A3A3FA0B4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB07E347EB07DB58BF04603C757F6FD /* Debug */,
+				4FF5B35B8E3B1CACB773931E63BA5BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

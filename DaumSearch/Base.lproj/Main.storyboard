@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PLR-vK-uSZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
@@ -32,48 +32,101 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="6vw-l9-2Wy"/>
                                 </connections>
                             </searchBar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3e-b4-OtP">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dj5-M6-UeG">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="700" id="vhp-gP-o9Q"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="vhp-gP-o9Q"/>
-                                    </mask>
-                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="W8B-bI-B87"/>
+                                </connections>
                             </webView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IYp-kJ-4UF">
+                                <rect key="frame" x="0.0" y="64" width="600" height="2"/>
+                                <animations/>
+                            </progressView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dj5-M6-UeG" secondAttribute="bottom" id="2qM-tb-6l8"/>
                             <constraint firstItem="B4W-A9-x6U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5wu-z8-LmS"/>
-                            <constraint firstItem="O3e-b4-OtP" firstAttribute="trailing" secondItem="B4W-A9-x6U" secondAttribute="trailing" id="802-DV-lIh"/>
+                            <constraint firstItem="IYp-kJ-4UF" firstAttribute="leading" secondItem="B4W-A9-x6U" secondAttribute="leading" id="6KE-Zd-wvF"/>
                             <constraint firstAttribute="trailing" secondItem="B4W-A9-x6U" secondAttribute="trailing" id="Edl-Ks-vv0"/>
-                            <constraint firstItem="O3e-b4-OtP" firstAttribute="leading" secondItem="B4W-A9-x6U" secondAttribute="leading" id="FUK-Dw-hnO"/>
+                            <constraint firstItem="IYp-kJ-4UF" firstAttribute="centerX" secondItem="B4W-A9-x6U" secondAttribute="centerX" id="IQO-nk-5SJ"/>
                             <constraint firstItem="B4W-A9-x6U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KfT-2m-Ue5"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O3e-b4-OtP" secondAttribute="bottom" constant="236" id="X7C-SB-Q1p"/>
-                            <constraint firstItem="B4W-A9-x6U" firstAttribute="centerX" secondItem="O3e-b4-OtP" secondAttribute="centerX" id="YVu-oZ-5Zh"/>
-                            <constraint firstItem="O3e-b4-OtP" firstAttribute="top" secondItem="B4W-A9-x6U" secondAttribute="bottom" id="bDn-GH-onR"/>
-                            <constraint firstItem="O3e-b4-OtP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="lvh-8u-0kg"/>
+                            <constraint firstItem="Dj5-M6-UeG" firstAttribute="trailing" secondItem="B4W-A9-x6U" secondAttribute="trailing" id="amr-ko-4NB"/>
+                            <constraint firstItem="Dj5-M6-UeG" firstAttribute="top" secondItem="B4W-A9-x6U" secondAttribute="bottom" id="eH7-m3-utL"/>
+                            <constraint firstItem="Dj5-M6-UeG" firstAttribute="leading" secondItem="B4W-A9-x6U" secondAttribute="leading" id="jSd-SO-Rzt"/>
+                            <constraint firstItem="IYp-kJ-4UF" firstAttribute="top" secondItem="Dj5-M6-UeG" secondAttribute="top" id="uwh-c1-QKx"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="YVu-oZ-5Zh"/>
-                                <exclude reference="X7C-SB-Q1p"/>
-                            </mask>
-                        </variation>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem image="BackButton" id="oPI-GE-oFA">
+                            <connections>
+                                <action selector="goBack" destination="Dj5-M6-UeG" id="jcL-dX-gJe"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="gaU-Wa-W0d"/>
+                        <barButtonItem image="ForwardButton" id="r4g-4K-jII">
+                            <connections>
+                                <action selector="goForward" destination="Dj5-M6-UeG" id="TRI-iV-T6j"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Sak-8D-pxJ"/>
+                        <barButtonItem image="HomeButton" id="d79-ti-bs8">
+                            <connections>
+                                <action selector="home:" destination="BYZ-38-t0r" id="d6B-0u-REU"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="lMJ-Fv-q6o"/>
+                        <barButtonItem image="ShareButton" id="yaV-kJ-mIl">
+                            <connections>
+                                <action selector="share:" destination="BYZ-38-t0r" id="SDR-ef-IlR"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="WEL-Yg-U8E"/>
                     <connections>
+                        <outlet property="back" destination="oPI-GE-oFA" id="mfb-vh-a5l"/>
+                        <outlet property="forward" destination="r4g-4K-jII" id="oaq-r4-rpV"/>
+                        <outlet property="progressView" destination="IYp-kJ-4UF" id="kpM-Mz-9j2"/>
                         <outlet property="searchBar" destination="B4W-A9-x6U" id="GNR-hF-veY"/>
-                        <outlet property="webView" destination="O3e-b4-OtP" id="ile-9w-Gwa"/>
+                        <outlet property="webView" destination="Dj5-M6-UeG" id="RaA-Sb-mZY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-351" y="366"/>
+            <point key="canvasLocation" x="1605" y="314"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zMy-Hn-qv2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" toolbarHidden="NO" id="PLR-vK-uSZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9DF-zW-esP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="uvJ-Iw-u9P">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jjY-1k-gSG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFD-Nk-5sj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="314"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BackButton" width="16" height="16"/>
+        <image name="ForwardButton" width="16" height="16"/>
+        <image name="HomeButton" width="16" height="16"/>
+        <image name="ShareButton" width="16" height="16"/>
+    </resources>
 </document>
